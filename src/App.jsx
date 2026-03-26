@@ -1,4 +1,4 @@
-import MyApp from './projects/portfulio/MyApp.jsx';
+import MyApp from './projects/portfulio1/MyApp.jsx';
 
 const App = () => {
   return <MyApp />
