@@ -15,7 +15,7 @@ const navBar = [
 export const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
-        <header className="shadow-md py-4">
+        <header className="shadow-md py-4" id="header">
             {/* Mobile Header */}
             <div className="container mx-auto flex justify-between align-middle px-2">
             <div>laxmancr</div>
