@@ -1,18 +1,18 @@
-import { AiFillCaretUp, AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
+import { AiFillCaretUp, AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 
 const socialLinks = [
-  { icon: AiFillGithub, href: "https://github.com/laxmancr", label: "GitHub" },
+  { icon: AiFillGithub, href: "https://github.com/laxmancroy", label: "GitHub" },
   { icon: AiFillLinkedin, href: "https://linkedin.com/in/laxmancr", label: "LinkedIn" },
-  { icon: AiFillTwitterCircle, href: "https://twitter.com/laxmancr", label: "Twitter" },
+  { icon: AiFillFacebook, href: "https://fb.com/laxmancroy", label: "Facebook" },
 ];
 
 const footerLinks = [
   {
     title: "Services",
     links: [
-      { label: "Plugin Development", href: "#services" },
-      { label: "Theme Development", href: "#services" },
-      { label: "WooCommerce", href: "#services" },
+      { label: "Mern Stack", href: "#services" },
+      { label: "NextJS", href: "#services" },
+      { label: "Meeting", href: "#services" },
       { label: "AI Integration", href: "#services" },
     ],
   },
@@ -39,11 +39,10 @@ export const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <a href="#home" className="text-2xl font-bold text-white mb-4 inline-block">
-              laxmancr
+              Laxman Chandra Roy
             </a>
             <p className="text-gray-400 mb-6 max-w-md">
-              Full Stack Developer specializing in WordPress plugin development,
-              theme creation, AI integrations, and WooCommerce solutions worldwide.
+              I am a proficient Full Stack Developer specializing in building modern web applications using the MERN Stack (MongoDB, Express.js, React, Node.js) and Next.js. I believe in creating scalable and high-performance solutions.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
