@@ -2,13 +2,11 @@ import { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const navLinks = [
-  { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#experience', label: 'Experience' },
   { href: '#testimonials', label: 'Testimonials' },
-  { href: '#contact', label: 'Contact' },
 ];
 
 export const Navbar = () => {
@@ -29,9 +27,8 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-md' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-md' : 'bg-transparent'
+        }`}
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
@@ -55,7 +52,7 @@ export const Navbar = () => {
               href="#contact"
               className="ml-4 px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-200 font-medium"
             >
-              Hire Me
+              Contact Me
             </a>
           </div>
 
