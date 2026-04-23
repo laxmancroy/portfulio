@@ -7,9 +7,9 @@ const stats = [
 ];
 
 const socialLinks = [
-  { icon: AiFillGithub, href: "https://github.com/laxmancr", label: "GitHub" },
+  { icon: AiFillGithub, href: "https://github.com/laxmancroy", label: "GitHub" },
   { icon: AiFillLinkedin, href: "https://linkedin.com/in/laxmancr", label: "LinkedIn" },
-  { icon: AiFillTwitterCircle, href: "https://twitter.com/laxmancr", label: "Twitter" },
+  { icon: AiFillTwitterCircle, href: "https://twitter.com/laxmancroy", label: "X" },
 ];
 
 export const Hero = () => {
@@ -29,12 +29,11 @@ export const Hero = () => {
             </h1>
 
             <h2 className="text-xl md:text-2xl text-gray-600 mb-6 font-medium">
-              Full Stack Developer & WordPress Expert
+              Full Stack Developer
             </h2>
 
             <p className="text-gray-600 text-lg mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              I specialize in building custom WordPress plugins, themes, and full-stack web applications.
-              With over 10 years of experience, I help businesses create powerful digital solutions.
+              I am a proficient Full Stack Developer specializing in building modern web applications using the MERN Stack (MongoDB, Express.js, React, Node.js) and Next.js. I believe in creating scalable and high-performance solutions.
             </p>
 
             {/* CTA Buttons */}
@@ -46,7 +45,7 @@ export const Hero = () => {
                 Order a Service
               </a>
               <a
-                href="https://wa.me/01763226159r"
+                href="https://wa.me/01763226159"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
