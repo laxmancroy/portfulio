@@ -2,41 +2,30 @@ const skillCategories = [
   {
     title: "Frontend Development",
     skills: [
-      { name: "React.js", level: 95 },
-      { name: "JavaScript (ES6+)", level: 95 },
+      { name: "React.js", level: 60 },
+      { name: "JavaScript (ES6+)", level: 90 },
       { name: "HTML5 & CSS3", level: 98 },
-      { name: "Tailwind CSS", level: 90 },
-      { name: "TypeScript", level: 85 },
+      { name: "Tailwind CSS", level: 70 },
+      { name: "TypeScript", level: 65 },
     ],
   },
   {
     title: "Backend Development",
     skills: [
-      { name: "PHP", level: 98 },
-      { name: "Node.js", level: 88 },
-      { name: "MySQL", level: 92 },
-      { name: "RESTful APIs", level: 90 },
-      { name: "GraphQL", level: 75 },
-    ],
-  },
-  {
-    title: "WordPress Expert",
-    skills: [
-      { name: "Plugin Development", level: 98 },
-      { name: "Theme Development", level: 95 },
-      { name: "WooCommerce", level: 92 },
-      { name: "Custom Post Types", level: 90 },
-      { name: "WordPress REST API", level: 88 },
+      { name: "NextJS", level: 65 },
+      { name: "Node.js", level: 68 },
+      { name: "PostgreSQL", level: 82 },
+      { name: "RESTful APIs", level: 70 },
     ],
   },
   {
     title: "Tools & Technologies",
     skills: [
       { name: "Git & GitHub", level: 90 },
-      { name: "Docker", level: 80 },
-      { name: "CI/CD", level: 85 },
-      { name: "AWS/VPS", level: 82 },
-      { name: "AI Integration", level: 88 },
+      { name: "Docker", level: 60 },
+      { name: "CI/CD", level: 45 },
+      { name: "AWS/VPS", level: 52 },
+      { name: "AI Integration", level: 58 },
     ],
   },
 ];
